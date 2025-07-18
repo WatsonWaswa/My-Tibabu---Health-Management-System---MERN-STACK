@@ -676,14 +676,23 @@ const PatientDashboard = () => {
         {/* Appointment Details Modal */}
         {showAppointmentDetails && selectedAppointment && (
           <Dialog open={showAppointmentDetails} onOpenChange={setShowAppointmentDetails}>
-            <DialogContent className="max-w-2xl">
-              <DialogHeader>
-                <DialogTitle>Appointment Details</DialogTitle>
-                <DialogDescription>
-                  Detailed information about your appointment
-                </DialogDescription>
+            <DialogContent className="max-w-2xl w-full max-h-[90vh] overflow-y-auto p-0 sm:p-6 rounded-lg">
+              <DialogHeader className="flex flex-row items-center justify-between sticky top-0 z-10 bg-white/90 backdrop-blur px-4 py-2 border-b">
+                <div>
+                  <DialogTitle>Appointment Details</DialogTitle>
+                  <DialogDescription>Detailed information about your appointment</DialogDescription>
+                </div>
+                <button
+                  onClick={() => setShowAppointmentDetails(false)}
+                  className="ml-4 text-gray-400 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary rounded-full p-1"
+                  aria-label="Close"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
               </DialogHeader>
-              <div className="space-y-6">
+              <div className="space-y-6 px-4 py-4 sm:px-0">
                 {/* Doctor Information */}
                 <div className="flex items-center space-x-4">
                   <Avatar className="h-16 w-16">
