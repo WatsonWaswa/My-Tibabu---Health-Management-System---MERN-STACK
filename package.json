@@ -1,0 +1,19 @@
+{
+  "name": "tibabu-health-connect",
+  "version": "1.0.0",
+  "description": "A comprehensive healthcare platform connecting patients with doctors",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"pnpm run dev:frontend\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd client && pnpm dev",
+    "install:all": "pnpm install && cd backend && pnpm install && cd ../client && pnpm install",
+    "build": "cd client && pnpm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["healthcare", "react", "nodejs", "mongodb"],
+  "author": "Watson",
+  "license": "MIT"
+} 
