@@ -1,4 +1,10 @@
-﻿# My-Tibabu Health Connect
+https://my-tibabu-health-management-system.vercel.app/     #Live link - vercel
+
+https://www.canva.com/design/DAGtp6jdxRA/p_rILaT2TFWPYOs2Nc5Cwg/edit    #Pitch Deck
+
+https://drive.google.com/file/d/1IGPowMDgGesTxBkIq6YiEFIjwisw6tLv/view?usp=sharing    #Video Explanation of My-Tibabu
+ 
+ # My-Tibabu Health Connect
 
 A comprehensive healthcare platform connecting patients with doctors.
 
