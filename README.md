@@ -1,13 +1,17 @@
 https://my-tibabu-health-management-system.vercel.app/     #Live link - vercel
 
 -- #TEST LOGIN DETAILS FOR - MY-TIBABY SYSTEM (LINK ABOVE)
-- #Patient login
+- #PATIENT LOGIN
 Email:     watsonliwa@yyahoo.com
 password:  123456
 
-- #Doctor's login
+- #DOCTORS LOGIN
 Email:    lihanda@tibabu.com
 password: 123456
+
+- #ADMIN LOGIN
+Email:    admin@tibabu.com
+password: admin123
 
 https://www.canva.com/design/DAGtp6jdxRA/p_rILaT2TFWPYOs2Nc5Cwg/edit    #Pitch Deck
 
