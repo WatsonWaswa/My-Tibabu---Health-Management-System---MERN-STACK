@@ -2,7 +2,7 @@ https://my-tibabu-health-management-system.vercel.app/     #Live link - vercel
 
 -- #TEST LOGIN DETAILS FOR - MY-TIBABY SYSTEM (LINK ABOVE)
 - #PATIENT LOGIN
-Email:     watsonliwa@yyahoo.com
+Email:     watsonliwa@yahoo.com
 password:  123456
 
 - #DOCTORS LOGIN
@@ -119,3 +119,4 @@ The frontend will be available at `http://localhost:8080`
 - Tailwind CSS
 - Socket.io client
 # My-Tibabu---Health-Management-System---MERN-STACK
+
